@@ -32,6 +32,11 @@ fonts
 /* ===================================
 base styles
 ==================================== */
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -64,10 +69,17 @@ h3 {
 
 h4 {
   font-size: 20px;
+  font-weight: 600;
+}
+
+h3 {
+  color: var(--var-navyblue);
+  font-weight: 600;
 }
 
 p {
   color: var(--var-black);
+  margin: 0;
 }
 
 /* ===================================
@@ -149,5 +161,9 @@ companies section
 }
 
 /* ===================================
-hero section
+feature section
 ==================================== */
+.feature-img img {
+  width: 100%;
+  max-height: 770px;
+}
