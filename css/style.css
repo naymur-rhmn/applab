@@ -1,0 +1,93 @@
+/* ================
+fonts
+==================*/
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(../fonts/Poppins-Regular.ttf) format(truetype);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(../fonts/Poppins-Medium.ttf) format(truetype);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(../fonts/Poppins-SemiBold.ttf) format(truetype);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url(../fonts/Poppins-Bold.ttf) format(truetype);
+  font-weight: 700;
+}
+
+/* =========================================================
+========================================================== */
+
+
+/* ===================================
+base styles
+==================================== */
+body,
+* {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+:root {
+  --var-white: #ffffff;
+  --var-black: #616368;
+  --var-navyblue: #242f51;
+  --var-navyblue-1: #09142e;
+  --var-violet: #2500f9;
+  --var-blue: #2563ff;
+  --var-green: #40975f;
+  --var-red: #f55767;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+/* ===================================
+header
+==================================== */
+.navbar-brand,
+.navbar-brand span {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.nav-item {}
+
+.nav-link {
+  font-size: 16px;
+  color: var(--var-navyblue);
+}
+
+.explore-btn {
+  background-color: var(--var-violet);
+  font-size: 16px;
+  color: var(--var-white);
+  border-radius: 50px;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
