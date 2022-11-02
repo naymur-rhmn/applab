@@ -32,8 +32,7 @@ fonts
 /* ===================================
 base styles
 ==================================== */
-body,
-* {
+body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -67,6 +66,10 @@ h4 {
   font-size: 20px;
 }
 
+p {
+  color: var(--var-black);
+}
+
 /* ===================================
 header
 ==================================== */
@@ -83,6 +86,7 @@ header
   color: var(--var-navyblue);
 }
 
+
 .explore-btn {
   background-color: var(--var-violet);
   font-size: 16px;
@@ -91,3 +95,59 @@ header
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.explore-btn:hover {
+  background-color: var(--var-violet);
+  color: #f0eded;
+
+}
+
+/* ===================================
+hero section
+==================================== */
+.hero-bg {
+  background: var(--var-white);
+  background-image: url(../img/hero-bg.png);
+  background-size: cover;
+  background-position: 50% 100%;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+}
+
+.hero-img img {
+  max-height: 700px;
+}
+
+.hero-badge {
+  text-decoration: none;
+  background-color: #E2EAED;
+  color: var(--var-navyblue);
+  padding: .4rem 1.5rem .4rem 0;
+  font-size: 18px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-bottom: .5rem;
+  display: inline-block;
+}
+
+.hero-title {
+  font-size: 60px;
+  font-weight: 600;
+}
+
+.hero-btn-grp a:last-of-type {
+  color: var(--var-blue);
+}
+
+/* ===================================
+companies section
+==================================== */
+.companies-logo a img {
+  width: 100%;
+  padding: 0 1rem;
+}
+
+/* ===================================
+hero section
+==================================== */
