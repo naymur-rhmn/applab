@@ -61,6 +61,7 @@ h1 {
 
 h2 {
   font-size: 40px;
+  font-weight: 700;
 }
 
 h3 {
@@ -167,3 +168,21 @@ feature section
   width: 100%;
   max-height: 770px;
 }
+
+/* ===================================
+smart section
+==================================== */
+.smart-heading {
+  padding-right: 5rem;
+}
+
+.smart-logo {
+  height: 50px;
+  width: 50px;
+  background-color: #FFECEF;
+  padding: 10px;
+  border-radius: 50%;
+  margin-bottom: .8rem;
+}
+
+.smart-item {}
