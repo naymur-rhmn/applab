@@ -300,3 +300,30 @@ pricing section
 /* ===================================
 testimonial section
 ==================================== */
+.accordion-button {
+  background: #F5F7FA;
+}
+
+.accordion-button:focus {
+  box-shadow: none;
+}
+
+.accordion-button::after {
+  background-image: url(../img/logo/minus.png);
+  position: relative;
+  top: 10px;
+  transition: .2s;
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/logo/plus.png);
+  transform: rotate(180deg);
+  position: relative;
+  top: 0px;
+  transition: .3s;
+}
+
+.accordion-item {
+  margin-bottom: .5rem;
+  border: none;
+}
