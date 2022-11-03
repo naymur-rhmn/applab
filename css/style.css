@@ -42,6 +42,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: 16px;
+  overflow-x: hidden;
+
 }
 
 :root {
@@ -107,12 +109,12 @@ header
   border-radius: 50px;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+  display: inline-block;
 }
 
 .explore-btn:hover {
   background-color: var(--var-violet);
   color: #f0eded;
-
 }
 
 /* ===================================
@@ -204,4 +206,93 @@ app section
 ==================================== */
 .app-section {
   margin: 100px 0;
+}
+
+/* ===================================
+ultimate feature section
+==================================== */
+.ultimate-feature {
+  position: relative;
+}
+
+.single-app-content {
+  z-index: 5;
+}
+
+.ultimate-bg {
+  background-image: url(../img/ultimate-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 35%;
+  position: absolute;
+  right: 0;
+  top: 55px;
+  content: "";
+  z-index: -1;
+}
+
+.ultimate-bg-staff {
+  position: relative;
+  height: 100%;
+}
+
+.ultimate-bg-staff:before {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  background-image: url(../img/ultimate.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80%;
+  width: 80%;
+  content: "";
+  transform: translateX(-150px);
+
+}
+
+.ultimate-bg-staff::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-image: url(../img/feature-2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 90%;
+  width: 100%;
+  content: "";
+  transform: rotate(25deg);
+
+}
+
+/* ===================================
+pricing section
+==================================== */
+.pricing-section {
+  padding: 100px 0;
+}
+
+.pricing-header {
+  background-color: #F4F7F9;
+}
+
+.price span {
+  font-size: 46px;
+  font-weight: 600;
+  color: var(--var-navyblue);
+}
+
+.pricing-header h5 {
+  font-weight: 700;
+}
+
+.pricing-body p {
+  margin-bottom: .5rem;
+}
+
+.underline:hover {
+  text-decoration: underline;
 }
