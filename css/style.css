@@ -25,8 +25,6 @@ fonts
   font-weight: 700;
 }
 
-/* =========================================================
-========================================================== */
 
 
 /* ===================================
@@ -37,7 +35,8 @@ base styles
   padding: 0;
 }
 
-body {
+body,
+html {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
@@ -83,6 +82,10 @@ h3 {
 p {
   color: var(--var-black);
   margin: 0;
+}
+
+ul {
+  list-style: none;
 }
 
 /* ===================================
@@ -326,4 +329,50 @@ faq section
 .accordion-item {
   margin-bottom: .5rem;
   border: none;
+}
+
+
+/* ===================================
+download section
+==================================== */
+.download-section {
+  padding: 60px 0;
+  position: relative;
+}
+
+.download-bg {
+  position: absolute;
+  background-color: #ffffff;
+  background-image: url(../img/d-bg.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  overflow-y: visible;
+}
+
+.apps-store img {
+  max-width: 150px;
+}
+
+/* ===================================
+footer section
+==================================== */
+.footer {
+  background-color: var(--var-navyblue-1);
+  padding: 70px 0;
+}
+
+.footer-content .navbar-brand {
+  color: var(--var-white);
+}
+
+.footer-content ul li a {
+  text-decoration: none;
+  padding: .5rem 1rem;
+  color: var(--var-white);
+
 }
